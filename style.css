@@ -32,11 +32,15 @@ body{
     margin-top: 5px;
 }
 
-.container .weapon-box{
+.container .weapon-box,
+.container .player-choices{
     height: 120px;
     width: 100%;
-    
     margin-top: 70px;
+}
+
+.container .weapon-box{
+    display: none;
 }
 
 .container .weapon-box h3{
@@ -102,3 +106,38 @@ body{
 .container .score-box div h3 span{
     color: #fff;
 }
+
+.container .player-choices{
+    height: 170px;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.container .player-choices div{
+    height:130px;
+    width:130px;
+    float: left;
+    margin-top:15px;
+}
+
+.container .player-choices div:nth-child(3){
+    transform:rotateY(180deg);
+    position:relative;
+    left: 40px;
+}
+
+.container .player-choices div img{
+    height: 130px;
+    width: 130px;
+}
+
+.container .player-choices h3{
+    word-spacing: 45px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+
+
